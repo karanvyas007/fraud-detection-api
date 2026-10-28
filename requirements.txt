@@ -1,0 +1,16 @@
+# Phase 1–4: data exploration and model training.
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+joblib>=1.4
+matplotlib>=3.8
+ipykernel>=6.29
+
+# Phase 5: inference API.
+fastapi>=0.115
+pydantic>=2.7
+uvicorn>=0.30
+# Required by FastAPI's TestClient in tests/test_api.py.
+httpx>=0.27
+
+# UI (Streamlit) and pytest are added in later phases.

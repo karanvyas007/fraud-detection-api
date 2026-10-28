@@ -1,0 +1,41 @@
+# Virtual environment
+.venv/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets (download separately; never commit raw data)
+data/*
+!data/README.md
+# Copies of the raw dataset or the Kaggle download archive outside data/
+creditcard.csv
+*.zip
+
+# Generated model artifacts
+models/*
+!models/README.md
+*.joblib
+*.pkl
+
+# Generated reports and plots (reproducible from scripts/)
+reports/
+
+# Temporary files and logs
+tmp/
+*.tmp
+*.log
+
+# OS / editor
+.DS_Store
